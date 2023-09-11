@@ -28,7 +28,8 @@ body {
 }
 
 h2,
-h3 {
+h3,
+h4 {
     text-align: center;
 }
 
@@ -242,6 +243,10 @@ a {
     padding-top: 15px;
     background-color: rgb(34, 34, 34);
     color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .message-me-btn {
@@ -283,6 +288,20 @@ a {
     padding-bottom: 20px;
     color: #959595;
     font-size: 12px;
+}
+
+.info-container {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.location, .hours, .phone {
+    width: 274px;
+    margin: 10px auto;
+    text-align: center;
 }
 
 /*** NAV BAR MEDIA QUERY***/
